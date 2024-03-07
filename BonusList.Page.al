@@ -53,8 +53,9 @@ page 50114 "Bonus List"
                 RunObject = page "Bonus Entries";
                 RunPageLink = "Bonus No." = field("No.");
             }
-            action(Test)
+            action(TestStrMenu)
             {
+                Caption = 'Testing StrMenu';
                 trigger OnAction()
                 var
                     Options: Text[100];
